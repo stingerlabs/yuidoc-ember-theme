@@ -480,6 +480,9 @@ pre.code {
   font-size: 16px;
   font-weight: bold;
 }
+.apidocs .item .description {
+  line-height: 1.5em;
+}
 .apidocs .item .type,
 .apidocs .returns-inline {
   font-size: 13px;

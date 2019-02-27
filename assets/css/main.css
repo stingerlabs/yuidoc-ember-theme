@@ -626,7 +626,7 @@ kbd .cmd { font-family: Monaco, Helvetica; }
     padding-top: 2px;
 }
 
-.apidocs .param { margin-bottom: 1em; }
+.apidocs .param { margin-bottom: 0; }
 
 .apidocs .param .type,
 .apidocs .param .type a {
