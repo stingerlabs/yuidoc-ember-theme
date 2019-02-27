@@ -280,7 +280,7 @@ th {
 }
 
 #classdocs .item .params p,
-    #classdocs .item .returns p,{
+    #classdocs .item .returns p {
     display: inline;
 }
 
@@ -618,7 +618,7 @@ kbd .cmd { font-family: Monaco, Helvetica; }
 /* -- Item Parameter List --------------------------------------------------- */
 .apidocs .params-list {
     list-style: square;
-    margin: 1em 0 0 2em;
+    margin: 0.5em 0 0 2em;
     padding: 0;
 }
 
