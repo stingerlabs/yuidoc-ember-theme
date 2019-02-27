@@ -419,7 +419,8 @@ pre {
   color: #356de4;
 }
 .apidocs .flag.required {
-  color: #e60923;
+  color: white;
+  font-weight: bold'
 }
 .apidocs .flag.deprecated {
   color: #e8ec22;
@@ -437,13 +438,13 @@ pre {
   background: none;
   border: 0 none;
   box-shadow: none;
-  padding: 0;
+  padding: 5px 0;
 }
 .class-description > p {
   font-size: 14px;
   font-weight: 400;
-  margin: 1.5em 0;
-  line-height: 1.5em;
+  margin: 0;
+  /* line-height: 1.5em; */
   color: #0c0c0c;
 }
 pre.code {
