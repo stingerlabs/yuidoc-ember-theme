@@ -420,7 +420,8 @@ pre {
 }
 .apidocs .flag.required {
   color: white;
-  font-weight: bold'
+  font-weight: bold;
+  border-radius: 4px;
 }
 .apidocs .flag.deprecated {
   color: #e8ec22;
