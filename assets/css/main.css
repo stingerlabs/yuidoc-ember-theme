@@ -280,7 +280,7 @@ th {
 }
 
 #classdocs .item .params p,
-    #classdocs .item .returns p,{
+    #classdocs .item .returns p {
     display: inline;
 }
 
@@ -568,7 +568,7 @@ kbd .cmd { font-family: Monaco, Helvetica; }
 .apidocs .flag.protected { background: #9b86fc; }
 .apidocs .flag.private { background: #fd6b1b; }
 .apidocs .flag.async { background: #356de4; }
-.apidocs .flag.required { background: #e60923; }
+.apidocs .flag.required { background: #e60923; color: white; }
 
 .apidocs .item {
     border-bottom: 1px solid #efefef;
@@ -618,7 +618,7 @@ kbd .cmd { font-family: Monaco, Helvetica; }
 /* -- Item Parameter List --------------------------------------------------- */
 .apidocs .params-list {
     list-style: square;
-    margin: 1em 0 0 2em;
+    margin: 0.5em 0 0 2em;
     padding: 0;
 }
 
@@ -626,7 +626,7 @@ kbd .cmd { font-family: Monaco, Helvetica; }
     padding-top: 2px;
 }
 
-.apidocs .param { margin-bottom: 1em; }
+.apidocs .param { margin-bottom: 0; }
 
 .apidocs .param .type,
 .apidocs .param .type a {
